@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background-color: #fcd34d;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+#inputArea {
+  width: 70%;
+  height: 13vh;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.btn {
+  background-color: #fcd34d;
+  border: none;
+  margin: 3rem;
+  padding: 1rem 2rem;
+  font-size: large;
+  cursor: pointer;
+  font-family: "Lora", serif;
+}
+
+@media screen and (max-width: 414px) {
+  #inputArea {
+    width: 95%;
+    height: 8vh;
+    font-size: 1rem;
+    padding: 0.3rem;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+  }
+}
